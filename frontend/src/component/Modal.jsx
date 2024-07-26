@@ -1,7 +1,7 @@
 // src/components/Modal.js
 import React from 'react';
 
-const Modal = ({ show, onClose, taskInput, handleInputChange, handleAddTask }) => {
+function  Modal ({ show, onClose, taskInput, handleInputChange, handleAddTask }) {
   if (!show) return null;
 
   return (
